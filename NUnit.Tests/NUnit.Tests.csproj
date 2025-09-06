@@ -50,7 +50,9 @@
     <Reference Include="System" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AuthenticationServiceTest.cs" />
     <Compile Include="BirthdayTest.cs" />
+    <Compile Include="BudgetServiceTest.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
