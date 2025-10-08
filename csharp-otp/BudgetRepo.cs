@@ -4,7 +4,7 @@ using System.Text;
 
 namespace csharp_otp
 {
-    public interface IBudgetRepo
+    public class BudgetRepo
     {
         List<Budget> GetAll();
     }
