@@ -6,6 +6,8 @@ namespace csharp_otp
 {
     public class BudgetRepo
     {
-        List<Budget> GetAll();
+        public List<Budget> GetAll() {
+            return new List<Budget>();
+        }
     }
 }
